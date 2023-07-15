@@ -1,5 +1,4 @@
 
-import CartItems from "@/components/atoms/CartItems";
 import { TYPES } from "@/actions/shoppingActions";
 
 export const shoppingInitialState = {

@@ -1,4 +1,3 @@
-
 import { useReducer } from 'react';
 import { TYPES } from '@/actions/shoppingActions';
 import { shoppingReducer, shoppingInitialState } from '@/reducer/shoppingReducer';

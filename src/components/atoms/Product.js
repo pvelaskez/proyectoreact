@@ -1,5 +1,5 @@
 import React from 'react'
-import CartItems from "@/components/atoms/CartItems";
+
 
 
 const Product = ({data, addToCart}) => {
