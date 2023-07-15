@@ -47,7 +47,7 @@ font-size: 1.2rem;
 margin-right: 2.5rem;
 margin-left: 1rem;
 color: rgba(97, 149, 102);
-border-radius: 5px;
+border-radius: 5px;git
 
 `
 const Peso = styled.a
