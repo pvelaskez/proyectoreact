@@ -12,7 +12,7 @@ const Product = ({data, addToCart}) => {
         <h5>${price}</h5>
         <button onClick={() => addToCart(id)}>Agregar</button>
     </div>
-  )
-}
+  );
+};
 
-export default Product
+export default Product;

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Section from "@/components/organisms/Section";
 import CardsList from '@/components/molecules/CardsList';
 import ShoppingCart from '@/components/molecules/ShoppingCart';
-import CartItems from '@/components/atoms/CartItems';
+import CartItem from '@/components/atoms/CartItem';
 
 
 
@@ -20,10 +20,8 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"/>
       </Head>
       <main >
-            <Section />
-        <CardsList/>
         <ShoppingCart/>
-        <CartItems/>
+        <CartItem/>
       </main>
     </>
   )

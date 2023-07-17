@@ -4,13 +4,12 @@ import { TYPES } from "@/actions/shoppingActions";
 export const shoppingInitialState = {
     products: [
         { id: 1, name: "Producto A", price:10},
-        { id: 2, name: "Producto A", price:50},
-        { id: 3, name: "Producto A", price:100},
-        { id: 4, name: "Producto A", price:150}, 
-        { id: 5, name: "Producto A", price:200},
+        { id: 2, name: "Producto B", price:50},
+        { id: 3, name: "Producto C", price:100},
+        { id: 4, name: "Producto D", price:150}, 
+        { id: 5, name: "Producto E", price:200},
     ],
-    cart: [],
-        
+    cart: [{id: 5, name: "Producto E", price:200}],
 };
 
 export function shoppingReducer(state, action) {
@@ -19,20 +18,21 @@ export function shoppingReducer(state, action) {
             let newItem = state.products.find(product => product.id === action.payload);
 
             let itemInCart = state.cart.find(item => item.id === newItem.id)
-
-            return itemInCart
+            
+            return itemInCart 
             ? {
-                ...state, 
+                ...state,
                 cart:state.cart.map(item =>
                     item.id === newItem.id
                     ? {...item, quantity: item.quantity + 1}
-                    :item
-                )
+                    : item
+                    )
             }
             : {
-                ...state,
-                cart: [...state.cart, {...newItem, quantity:1}]
+               ...state,
+               cart: [...state.cart, {...newItem, quantity:1}] 
             }
+                        
 
          
         }
