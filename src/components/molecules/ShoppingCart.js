@@ -3,6 +3,7 @@ import { TYPES } from '@/actions/shoppingActions';
 import { shoppingReducer, shoppingInitialState} from '@/reducer/shoppingReducer';
 import CartItem from '../atoms/CartItem';
 import Product from '../atoms/Product';
+import React from 'react';
 
 const ShoppingCart = () => {
 

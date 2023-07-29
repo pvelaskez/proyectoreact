@@ -1,8 +1,13 @@
 import React from 'react'
 
-const CartItem = ({data, deleteFromCart}) => {
 
-  const {name, price, id} = data;
+
+const CartItem = (data, deleteFromCart) => {
+
+  const {id, name, price, quantity} = data;
+
+  console.log(id)
+
   return (
     <div className="cart-item">
         <h4>{name}</h4>

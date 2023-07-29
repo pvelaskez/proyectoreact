@@ -14,7 +14,7 @@ const Button = () => {
         border: 0;
         transition: 0.3s;
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 20px;
         font-weight: bold;
         
     }

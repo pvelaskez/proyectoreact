@@ -1,5 +1,7 @@
-
 import { TYPES } from "@/actions/shoppingActions";
+
+
+
 
 export const shoppingInitialState = {
     products: [
@@ -9,8 +11,12 @@ export const shoppingInitialState = {
         { id: 4, name: "Producto D", price:150}, 
         { id: 5, name: "Producto E", price:200},
     ],
-    cart: [{id: 5, name: "Producto E", price:200}],
+    cart: [{ id: 1, name: "Producto A", price:10}],
+    
 };
+
+
+console.log()
 
 export function shoppingReducer(state, action) {
     switch (action.type) {

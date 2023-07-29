@@ -21,31 +21,34 @@ const Card = (props) => {
 export default Card
 
 const Cards = styled.figure`
-width: 180px;
-height: 410px;
+width: 200px;
+height: 310px;
 border: 2px solid white;
-background-color: White;
+border-radius: 5px;
+background-color: white;
 margin-left: 0;
 margin-right: 0;
 
+
 `
+//box-shadow: 2px 2px 10px
 
 const Image = styled.img`
 width: 100%;
-height: 40%;
+height: 50%;
 object-fit:cover;
 `
 
 const Producto = styled.h3`
-line-height: 8;
-margin-left: 1rem;
+line-height: 2;
+margin-left: 1.5rem;
 font-size: 1rem;
 `
 const Precio = styled.a
 `
 font-size: 1.2rem;
-margin-right: 2.5rem;
-margin-left: 1rem;
+margin-right: 3.5rem;
+margin-left: 1.7rem;
 color: rgba(97, 149, 102);
 border-radius: 5px;git
 
