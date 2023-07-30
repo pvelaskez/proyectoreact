@@ -5,7 +5,7 @@ import Button from './Button'
 
 const Card = (props) => {
   return (
-    
+    <>
     <Cards>
         <Image src= {props.data.img} alt=""/>
         <figcaption>
@@ -15,6 +15,9 @@ const Card = (props) => {
             <Precio >{props.data.precio}</Precio><Peso>1 kg.</Peso>
         <Button />
     </Cards>
+   
+  
+    </>
   )
 }
 
@@ -23,7 +26,7 @@ export default Card
 const Cards = styled.figure`
 width: 200px;
 height: 310px;
-border: 2px solid white;
+border: 1px solid transparent;
 border-radius: 5px;
 background-color: white;
 margin-left: 0;
