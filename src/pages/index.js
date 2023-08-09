@@ -6,6 +6,7 @@ import ShoppingCart from '@/components/molecules/ShoppingCart';
 import CartItem from '@/components/atoms/CartItem';
 import AboutUs from '@/components/organisms/AboutUs';
 import Contact from '@/components/organisms/Contact';
+import { Image } from 'react-bootstrap';
 
 
 
@@ -24,10 +25,13 @@ export default function Home() {
       <header>
      <Navigation/>
      </header>
+    
       <main >
+      
         <Banner/>
       </main>
       <section>
+      <Image src="/images/oferta.jpg" with={100} height={100}/>
         <Products/>
         <ShoppingCart/>
         <CartItem/>

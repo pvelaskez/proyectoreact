@@ -116,3 +116,7 @@ a {
   padding: 1 rem;
   color: white;
 }
+
+.image{
+  border-radius: 10px;
+}

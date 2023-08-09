@@ -31,11 +31,9 @@ border-radius: 5px;
 background-color: white;
 margin-left: 0;
 margin-right: 0;
-
+:hover: box-shadow: 2px 2px 10px
 
 `
-//box-shadow: 2px 2px 10px
-
 const Image = styled.img`
 width: 100%;
 height: 50%;
