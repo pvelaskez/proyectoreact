@@ -23,22 +23,19 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"/>
       </Head>
       <header>
-     <Navigation/>
+   
      </header>
     
       <main >
       
-        <Banner/>
+        
       </main>
       <section>
-      <Image src="/images/oferta.jpg" with={100} height={100}/>
-        <Products/>
-        <ShoppingCart/>
-        <CartItem/>
-        <AboutUs/>
+      
+       
       </section>
       <footer>
-        <Contact/>
+        
       </footer>
       
     </>
